@@ -23,11 +23,12 @@ function showTime() {
     }
 
     var time = housr + ':' + minute + ':' + second + session
-    document.getElementById('MyClockDisplay').innerText = time;
+    document.getElementById('MyClockDisplay').innerText = time;   
 
 }
 
 showTime();
 setInterval(showTime, 1000);
+// 12
 
 
